@@ -1,2 +1,2 @@
 # OpenOSI
-Oak Stem Industries Open Source Projects 
+Oak Stem Industries (Pty) Ltd Open Source Projects 
