@@ -1,0 +1,62 @@
+# StudyBuddy App
+
+## Overview
+StudyBuddy is a mobile application designed to help users create study notes, prepare for exams, and practice questions through push notifications. The app leverages AI to deliver personalized and efficient study experiences for users of all levels and across all topics.
+
+## Features
+- **Study Notes**: Create, organize, and manage study notes.
+- **Exam Preparation**: Generate tailored exam prep materials based on user input.
+- **Practice Questions**: Provide AI-generated practice questions for any topic or level.
+- **Push Notifications**: Deliver reminders and study prompts to keep users on track.
+- **AI-Powered**: Wraps GPT-4.0 to generate content and provide intelligent assistance.
+
+## Tech Stack
+- **Frontend**: Flutter (for cross-platform mobile app development).
+- **Backend**: Firebase (for hosting, authentication, and real-time database).
+- **AI Model**: GPT-4.0 (for generating study materials and practice questions).
+
+## Requirements
+1. **User Authentication**:
+   - Enable users to sign up and log in using Firebase Authentication.
+   - Support for social login (Google, Facebook, etc.).
+
+2. **Study Notes Management**:
+   - Allow users to create, edit, and delete notes.
+   - Organize notes by topics or categories.
+
+3. **Exam Preparation**:
+   - Provide an interface for users to specify topics and difficulty levels.
+   - Generate AI-powered exam prep materials.
+
+4. **Practice Questions**:
+   - Allow users to request practice questions for specific topics.
+   - Deliver questions via push notifications.
+
+5. **Push Notifications**:
+   - Schedule reminders for study sessions.
+   - Notify users with daily practice questions.
+
+6. **AI Integration**:
+   - Use GPT-4.0 to generate study notes, exam prep materials, and practice questions.
+   - Ensure AI responses are tailored to user preferences and input.
+
+7. **Cross-Platform Support**:
+   - Ensure the app works seamlessly on both Android and iOS devices.
+
+## Hosting and Deployment
+- Use Firebase Hosting for backend services.
+- Deploy the app to Google Play Store and Apple App Store.
+
+## Future Enhancements
+- Add support for collaborative study groups.
+- Integrate analytics to track user progress.
+- Expand AI capabilities to include voice-based interactions.
+
+## Getting Started
+1. Clone the repository.
+2. Set up Firebase project and configure the app.
+3. Install Flutter and required dependencies.
+4. Run the app on an emulator or physical device.
+
+## License
+This project is open-source and available under the MIT License.
